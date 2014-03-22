@@ -1,14 +1,17 @@
 doctype html
 html(lang='en')
   head
-    title= Shredtopia
+    title Shredtopia
     link(rel='stylesheet', href='style.css', type='text/css')
+    link(href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", rel="stylesheet")
     script(src='script.js')
   
   body
     #navbar.navbar
-      a(href='/') Squaw
+      a(href='/', value="squaw+valley", class="squaw") Squaw
       a(href='/') Kirkwood
       a(href='/') Heavenly
+      <i class="fa fa-github fa-inverse fa-4x"></i> 
+      <i class="fa fa-volume-off fa-inverse fa-4x"></i> 
     
     block content
